@@ -2,7 +2,6 @@ body {
   font-family: 'Quicksand', 'Open Sans', sans-serif;
   width: 100%;                                                                                                                                                                                                                                                                                                                                                 isplay: grid;
   height: auto;
- 
   color: #020227;	
 }
 h1,h2 { 
@@ -16,27 +15,10 @@ img {
 .section { 
   width: 100%;
   height: auto;
-  padding: 1rem 0;
-}
-
-.blue { 
-  color:rgb(15, 58, 71);
+  padding: 2rem;
 }
 .navy { 
   color:#000080;
-}
-.darkgreen { 
-  color:#006400;
-}
-.firebrick {
-  color:#b22222;
-}
-.sienna { 
-  color:#a0522d;
-}
-
-.darkslategray { 
-  color:#8b8f8f;
 }
 /*auto-fit  auto-fill = ram */
 /* 1linelauouts.glitch.me  
@@ -69,7 +51,7 @@ header h1 {
   border: 1px solid rgb(77, 65, 60);
   background:#e5a232;
   color: #4c4242;
-  width: 80%;
+  width: 66%;
   resize: both;
   overflow: auto;
   margin: auto;
@@ -151,7 +133,7 @@ grid-template-columns: repeat(12, 1fr) */
   }
 .pouring  { 
   background-color: #06004e;
-  color: #2e20e6;
+  color: #5247ec;
 }
 .drinking { 
   background-color: #536C00;
