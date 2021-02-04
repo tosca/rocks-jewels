@@ -6,7 +6,7 @@ body {
 }
 h1,h2 { 
   font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
 }
 img {
   width: 100%; 
@@ -15,7 +15,7 @@ img {
 .section { 
   width: 100%;
   height: auto;
-  padding: 2rem;
+  padding: 20rem 0rem;
 }
 .navy { 
   color:#000080;
@@ -58,6 +58,17 @@ header h1 {
 }
 main{ 
   background: rgb(211, 202, 196);
+}
+/* 01. place items center*/
+.center-item { 
+  display: flex;
+  flex: 0 1 350px; /*8 no stretching*/
+  padding: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  resize: both;
+  overflow: auto;
 }
 /*02. The Deconstructed Pancake 
 flex: 0 1 <baseWidth>*/
@@ -111,25 +122,12 @@ grid-template-columns: repeat(12, 1fr) */
   width: 100%; 
   height: auto;
   }
-.span-4 {
-  display: grid;
-  place-items: center;
-  grid-column: 4 / span 4;
-  width: 100%; 
-  height: auto;
-  }
-.span-2 {
-  display: grid;
-  place-items: center;
-  grid-column: 3 / span 2;
-  width: 100%; 
-  height: auto;
-}
+
   /* centering text */
   .ex6 .section {
     display: grid;
     place-items: center;
-    text-align: center
+    text-align: center;
   }
 .pouring  { 
   background-color: #06004e;
@@ -161,36 +159,27 @@ grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
   place-items: center;
   text-align: center;
 }
-
-  /* 08. Line Up
-justify-content: space-between */
-.card {
- display: grid;
- place-items: center;
- text-align: left;
- margin: auto;
- padding: 2rem;
- min-width: 500px;
- width: 50%; 
- height: auto;
-  grid-gap: 1rem;
+  /* 08. Line Up justify-content: space-between */
+.card-lineup { 
+  height: auto;
+  display: grid;
+  grid-gap: 0rem;
   grid-template-columns: repeat(1, 1fr);
 }
 .visual { 
-  height: 100%;
-  width: 30%;;
+  width: 27%;
+  height: auto;
   margin: auto;
-}
-
-/* 09. Clamping My Style
-clamp(<min>, <actual>, <max>) *some browser support */
-.card-clamp {
-  width: clamp(45ch, 50%, 75ch);
-  display: flex;
-  margin: auto;
-  flex-direction: column;
   padding: 1rem;
 }
+.card { 
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  max-width: 450px;
+  background-color: #d9d6d6;
+}
+
 footer { 
   padding: 2rem;
   text-align: center;
