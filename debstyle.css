@@ -1,12 +1,12 @@
 body {
-  font-family: 'Quicksand', 'Open Sans', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   width: 100%;                                                                                                                                                                                                                                                                                                                                                 isplay: grid;
   height: auto;
   color: #020227;	
 }
-h1,h2 { 
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 500;
+h1,h2, h3 { 
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
 }
 img {
   width: 100%; 
@@ -15,7 +15,7 @@ img {
 .section { 
   width: 100%;
   height: auto;
-  padding: 20rem 0rem;
+  padding: 7rem 0rem;
 }
 .navy { 
   color:#000080;
@@ -38,7 +38,7 @@ header {
   display: grid;
   text-align: center;
   background-image:url("img/color-bg.jpg");
- color: #e5a232;
+ color: #a59776;
   padding: 3rem;    
 }
 header h1 { 
@@ -46,11 +46,13 @@ header h1 {
 }
 .head-text { 
   text-align: center;
-  padding: 0.5rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+ padding: 0.5rem;
   border-radius: 7px;
   border: 1px solid rgb(77, 65, 60);
-  background:#e5a232;
-  color: #4c4242;
+  background:#0d0aa773;
+  color: #e5a232;
+  color: #a59776;
   width: 66%;
   resize: both;
   overflow: auto;
