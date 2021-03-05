@@ -6,7 +6,7 @@
 body {
   font-family: 'Montserrat Alternates', sans-serif;
   height: auto;
-  width: 100%;
+  width: 100vw;
   background-color: #434343;
   color:#434343;
 }
@@ -214,7 +214,7 @@ grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
   grid-template-columns: repeat(2, 1fr);
 }
 .visual { 
-  height: 150px;
+  height: auto;
   width: auto;
   margin: 0.5rem;
  
