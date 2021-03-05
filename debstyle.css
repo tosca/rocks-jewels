@@ -15,30 +15,7 @@ h2, h3 {
 .architects {
   font-family: 'Architects Daughter', cursive;
 }
-.caveat {
-  font-family: 'Caveat', cursive;
-}
-.commissioner {
-  font-family: 'Commissioner', sans-serif;
-}
-.delius {
-  font-family: 'Delius Swash Caps', cursive;
-}
-.monkey {
-  font-family: 'Happy Monkey', cursive;
-}
-.shadows {
-  font-family: 'Shadows Into Light', cursive;
-}
-.shadows-2 {
-  font-family: 'Shadows Into Light Two', cursive;
-}
-.voltaire {
-  font-family: 'Voltaire', sans-serif;
-}
-.sunrise {
-  font-family: 'Waiting for the Sunrise', cursive;
-}
+
 img {
   width: 100%; 
   height: auto;
@@ -60,13 +37,13 @@ img {
 .limey-dk { 
   color: #91981b;
 }
-header { 
+.header-section { 
   text-align: center;
   background-color: #b8bd56;
   color:#434343;   
 }
-header h1 { 
-  font-size: 2rem;
+.header-section h1{
+   font-size: 2.2rem;
 }
 .head-text { 
   text-align: center;
@@ -76,7 +53,7 @@ header h1 {
   border-radius: 5px;
   background:#434343;
   color: #a3a49f;
-  max-width: 37rem;
+  max-width: 80%;
   overflow: auto;
   margin: auto;
 }
@@ -116,16 +93,22 @@ flex: 0 1 <baseWidth>*/
   padding: 1rem;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 .pancake .box {
   flex: 1 1 150px; /*  Stretching: */
   /*  flex: 0 1 150px;  No stretching: */
   margin: 10px;
-  background:#8b8f8f;
-  font-size: 2rem;
+  padding: 1rem;
+  background:#f8f9fa;
   text-align: center;
 }
-
+.bio { 
+  background-color: #434343;
+}
+.text-lt { 
+  text-align: left;
+}
  /* 04. Pancake Stack
 grid-template-rows: auto 1fr auto 
 .ex4 .parent {
@@ -184,6 +167,9 @@ grid-template-columns: repeat(12, 1fr) */
   background-color: #8b8f8f;
   color: #434343;
 }
+.mixed-media { 
+  background-color: #b8bd56;
+}
   /* 07. RAM (Repeat, Auto, Minmax)
 grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 .ram {
@@ -197,22 +183,23 @@ grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 }
   /* 08. Line Up justify-content: space-between */
 .card-lineup { 
+  background-color: #434343;
   height: auto;
   display: grid;
-  grid-gap: 0rem;
-  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
 }
 .visual { 
   height: auto;
-  margin: auto;
-  padding: 1rem;
+  margin: 0.5rem;
+ 
 }
 .card { 
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   padding: 1rem;
-  max-width: 450px;
-  background-color: #d9d6d6;
+  justify-content: space-between;
+  background-color: #f8f9fa;
 }
 footer { 
   text-align: center;
