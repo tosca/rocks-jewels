@@ -15,6 +15,30 @@ h2, h3 {
 .architects {
   font-family: 'Architects Daughter', cursive;
 }
+.caveat {
+  font-family: 'Caveat', cursive;
+}
+.commissioner {
+  font-family: 'Commissioner', sans-serif;
+}
+.delius {
+  font-family: 'Delius Swash Caps', cursive;
+}
+.monkey {
+  font-family: 'Happy Monkey', cursive;
+}
+.shadows {
+  font-family: 'Shadows Into Light', cursive;
+}
+.shadows-2 {
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.voltaire {
+  font-family: 'Voltaire', sans-serif;
+}
+.sunrise {
+  font-family: 'Waiting for the Sunrise', cursive;
+}
 
 img {
   width: 100%; 
