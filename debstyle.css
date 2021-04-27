@@ -10,7 +10,20 @@ body {
   background-color: #434343;
   color:#434343;
 }
+* {
+  box-sizing: border-box;
+}
+.zoom {
+  background-color: white;
+  transition: transform .3s;
+  margin: 0 auto; 
+}
 
+.zoom:hover {
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3); 
+  transform: scale(1.3); 
+}
 h2, h3 { 
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 400;
@@ -85,8 +98,6 @@ img {
   border-radius: 5px;
   background:#434343;
   color:#d0d1cd;
-  max-width: 62%;
-  overflow: auto;
   margin: auto;
   margin-bottom: 2rem;
 }
@@ -248,7 +259,14 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
-
+a, a:hover {
+  -webkit-transition: all 350ms ease-in-out 0s;
+  -moz-transition: all 350ms ease-in-out 0s;
+  -o-transition: all 350ms ease-in-out 0s;
+  transition: all 350ms ease-in-out 0s;
+  background-size: 2%;
+  opacity: 1;
+}
 
   
 
