@@ -72,15 +72,11 @@ img {
 .limey-dk { 
   color: #91981b;
 }
-.header-section{ 
-  padding: 4rem;
-}
-
 .header-section { 
   text-align: center;
   background-color: #b8bd56;
-  color:#434343; 
-  
+  color:#434343;
+  padding: 2rem;  
 }
 .header-section h1{
    font-size: 4rem;
@@ -89,17 +85,17 @@ img {
   background-image: url("./img/debpots-sq.png"); 
   background-repeat: no-repeat;
   background-position: left;
-  background-size: 4rem;
+  background-size: 3rem;
 }
 .head-text { 
   text-align: center;
   font-family: 'Montserrat Alternates', sans-serif;
   padding: 1rem;
   border-radius: 5px;
-  background:#434343;
   color:#d0d1cd;
+  color: #131212;
   margin: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 main{ 
   background: #8b8f8f;
