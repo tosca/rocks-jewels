@@ -58,7 +58,7 @@ img {
   text-align: center;
   background-color: #b8bd56;
   color:#434343;
-  padding: 2rem 3rem;  
+  padding: 1rem;  
 }
 .header-section h1{
    font-size: 4rem;
@@ -72,31 +72,16 @@ img {
 .head-text { 
   text-align: center;
   font-family: 'Montserrat Alternates', sans-serif;
-  padding: 1rem;
+  padding: 1rem 0rem;
   border-radius: 5px;
   color:#d0d1cd;
   color: #131212;
   margin: auto;
-  margin-bottom: 1rem;
+ /* margin-bottom: 1rem;*/
 }
 main{ 
   background: #8b8f8f;
 }
-
-/*auto-fit  auto-fill = ram */
-/* 1linelauouts.glitch.me  
-grid-template-rows: auto 1fr auto;
-01. Super Centered
-place-items: center
-.header { 
-  display: grid;
-  place-items: center;
-  background: lightblue;
-  width: 500px;
-  height: 500px;
-  resize: both;
-  overflow: auto;
-}*/
 /* 01. place items center*/
 .center-item { 
   display: flex;
