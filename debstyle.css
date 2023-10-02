@@ -20,9 +20,8 @@ body {
 }
 
 .zoom:hover {
-  -ms-transform: scale(1.3);
-  -webkit-transform: scale(1.3); 
-  transform: scale(1.3); 
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2); 
 }
 h2, h3 { 
   font-family: 'Montserrat Alternates', sans-serif;
@@ -51,6 +50,9 @@ img {
 }
 .limey-dk { 
   color: #91981b;
+}
+.logo {
+  max-width: 4rem;
 }
 .header-section { 
   text-align: center;
@@ -195,13 +197,13 @@ grid-template-columns: repeat(12, 1fr) */
 grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 .ram {
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: 0.5rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .ram .box { 
   place-items: center;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 .statement { 
   background-color: white;
